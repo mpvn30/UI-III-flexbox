@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* sticky navigation */
+.sticky{
+	display: flex;
+	position: fixed;
+	padding: 5px;
+	margin: 0px;
+	width:100%;
+	font-size: 18px;
+	justify-content: space-between;
+	text-align: center;
+	background-color: #F2F1F1;
+	z-index: 1;
+}
+
+.sticky nav{
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+	width: 20%;
+	padding: 5px;
+	transition: all 0.4s ease 0s;
+}
+
+nav a:hover{
+	border-bottom: 2px solid darkgray;
+}
+
+/* header */
+.front{
+	display:flex;
+	justify-content: center;
+	padding-top: 100px;
+}
+
+h1{
+	font-size: 112px;
+}
+
+img{
+	margin-left: 100px;
+}
+
+/* .button{
+	position: absolute;
+	top: 450px;
+	width: 10%;
+	text-align: center;
+	padding: 5px;
+	border: 2px black solid;
+	font-size: 22px;
+	margin-left: 28%;
+} */
+
+.button{
+	width: 66%;
+	text-align: center;
+	padding-bottom: 75px;
+}
+
+.button a{
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px 40px;
+	color: black;
+	transition: all 0.4s ease 0s;
+	border: 2px solid black;
+	font-family: helvetica;
+}
+
+.button a:hover{
+	background-color: black;
+	color: white;
+}
+
+/* content */
+h2{
+	font-size: 32px;
+}
+p{
+	font-size: 18px;
+}
+.row1{
+	display: flex;
+	justify-content: space-around;
+	padding: 50px 10px;
+}
+.features, .about{
+	width: 45%;
+}
